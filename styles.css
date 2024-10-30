@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: blanchedalmond;
+}
+.lilDiv{
+    background-color: blueviolet;
+    min-width: 1px;
+    min-height: 1px;
+}
+.buttonContainer{
+    display: flex;
+    width: 100%;
+    
+}
+.popup{
+    flex: 1;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    border: 2px solid black;
+    font-size: 24px;
+    font-weight: 900;
+}
